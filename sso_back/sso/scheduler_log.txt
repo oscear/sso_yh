@@ -1,0 +1,43 @@
+2022-11-24 18:14:59 base.py[line:444] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2022-11-24 18:14:59 base.py[line:885] INFO Added job "makeCacheindex" to job store "default"
+2022-11-24 18:14:59 base.py[line:171] INFO Scheduler started
+2022-11-24 18:17:52 base.py[line:444] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2022-11-24 18:17:52 base.py[line:885] INFO Added job "makeCacheindex" to job store "default"
+2022-11-24 18:17:52 base.py[line:171] INFO Scheduler started
+2022-11-24 18:18:00 base.py[line:123] INFO Running job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-11-24 18:18:00 CST)" (scheduled at 2022-11-24 18:18:00+08:00)
+2022-11-24 18:18:00 base.py[line:144] INFO Job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-11-25 18:18:00 CST)" executed successfully
+2022-12-05 11:55:55 base.py[line:444] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2022-12-05 11:55:55 base.py[line:885] INFO Added job "makeCacheindex" to job store "default"
+2022-12-05 11:55:55 base.py[line:171] INFO Scheduler started
+2022-12-05 18:18:00 base.py[line:123] INFO Running job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-12-05 18:18:00 CST)" (scheduled at 2022-12-05 18:18:00+08:00)
+2022-12-05 18:18:01 base.py[line:131] ERROR Job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-12-06 18:18:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "F:\PYTHON\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/aMyProbjects/SSO平台/sso_server/sso/myScheduler.py", line 20, in makeCacheindex
+    print("执行成功了")
+OSError: [Errno 22] Invalid argument
+2022-12-06 18:18:00 base.py[line:123] INFO Running job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-12-06 18:18:00 CST)" (scheduled at 2022-12-06 18:18:00+08:00)
+2022-12-06 18:18:00 base.py[line:131] ERROR Job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-12-07 18:18:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "F:\PYTHON\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/aMyProbjects/SSO平台/sso_server/sso/myScheduler.py", line 20, in makeCacheindex
+    print("执行成功了")
+OSError: [Errno 22] Invalid argument
+2022-12-07 18:18:00 base.py[line:123] INFO Running job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-12-07 18:18:00 CST)" (scheduled at 2022-12-07 18:18:00+08:00)
+2022-12-07 18:18:00 base.py[line:131] ERROR Job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-12-08 18:18:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "F:\PYTHON\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/aMyProbjects/SSO平台/sso_server/sso/myScheduler.py", line 20, in makeCacheindex
+    print("执行成功了")
+OSError: [Errno 22] Invalid argument
+2022-12-08 18:18:00 base.py[line:123] INFO Running job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-12-08 18:18:00 CST)" (scheduled at 2022-12-08 18:18:00+08:00)
+2022-12-08 18:18:00 base.py[line:131] ERROR Job "makeCacheindex (trigger: cron[day_of_week='mon-sun', hour='18', minute='18'], next run at: 2022-12-09 18:18:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "F:\PYTHON\lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "F:/aMyProbjects/SSO平台/sso_server/sso/myScheduler.py", line 20, in makeCacheindex
+    print("执行成功了")
+OSError: [Errno 22] Invalid argument

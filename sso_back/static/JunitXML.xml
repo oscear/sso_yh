@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="4" hostname="localhost.localdomain" name="CustomerBug.CustomerBugTest" skipped="0" tests="38" time="127.718" timestamp="2022-10-27T16:20:29">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="ant.file.type.Yonghong Testing" value="file" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="testclasses.dir" value="/home/bi/branch/v10.0/test/assetExecute/testcases" />
+    <property name="testroot" value="/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/home/software/jdk1.8.0_181/jre/lib/resources.jar:/home/software/jdk1.8.0_181/jre/lib/rt.jar:/home/software/jdk1.8.0_181/jre/lib/sunrsasign.jar:/home/software/jdk1.8.0_181/jre/lib/jsse.jar:/home/software/jdk1.8.0_181/jre/lib/jce.jar:/home/software/jdk1.8.0_181/jre/lib/charsets.jar:/home/software/jdk1.8.0_181/jre/lib/jfr.jar:/home/software/jdk1.8.0_181/jre/classes" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/home/software/apache-ant-1_10_7" />
+    <property name="java.runtime.version" value="1.8.0_181-b13" />
+    <property name="g5.classpath" value="/home/jars/10.0/base.jar;/home/jars/10.0/thirds.jar;/home/jars/10.0/product.jar;/home/bi/branch/v10.0/test/tool/lib/jco/sapjco3.jar;/home/bi/branch/v10.0/test/tool/lib/mongo/mongo-java-driver-3.11.0.jar" />
+    <property name="user.name" value="root" />
+    <property name="build.dir" value="/home/bi/branch/v10.0/test/assetExecute/build" />
+    <property name="user.language" value="en" />
+    <property name="build.root" value="/home/bi/branch/v10.0/build" />
+    <property name="sun.boot.library.path" value="/home/software/jdk1.8.0_181/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="checkEnv" />
+    <property name="testlib.dir" value="/home/bi/branch/v10.0/test/assetExecute/test/lib" />
+    <property name="test.root" value="/home/bi/branch/v10.0/test/assetExecute/.." />
+    <property name="ant.project.name" value="dataExcute" />
+    <property name="java.version" value="1.8.0_181" />
+    <property name="bi.home" value="/home/bi/branch/v10.0/test/assetExecute/work/CustomerBug" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="ant.file.dataExcute" value="/home/bi/branch/v10.0/test/assetExecute/build_linux.xml" />
+    <property name="java.endorsed.dirs" value="/home/software/jdk1.8.0_181/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="currentdir" value="/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/." />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ant.file.type.dataExcute" value="file" />
+    <property name="classes.dir" value="/home/bi/branch/v10.0/test/assetExecute/classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/home/software/jdk1.8.0_181/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/home/bi/branch/v10.0/test/assetExecute/build_linux.xml" />
+    <property name="os.version" value="3.10.0-327.el7.x86_64" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.181-b13" />
+    <property name="report.dir" value="/home/bi/branch/v10.0/test/assetExecute/test/html" />
+    <property name="ant.library.dir" value="/home/software/apache-ant-1_10_7/lib" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="srclib.dir" value="/home/bi/branch/v10.0/test/assetExecute/srclib" />
+    <property name="user.home" value="/root" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="/home/bi/branch/v10.0/test/assetExecute/test" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="configdir" value="/home/bi/branch/v10.0/test/assetExecute/config" />
+    <property name="workdir" value="/home/bi/branch/v10.0/test/assetExecute/work" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="common.lib" value="/home/bi/branch/v10.0/test/assetExecute/../tool/lib" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner CustomerBug.CustomerBugTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=false logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/bi/branch/v10.0/test/assetExecute/reports/TEST-CustomerBug.CustomerBugTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/bi/branch/v10.0/test/assetExecute/reports/TEST-CustomerBug.CustomerBugTest.txt crashfile=/home/bi/branch/v10.0/test/assetExecute/junitvmwatcher2964058504121603826.properties propsfile=/home/bi/branch/v10.0/test/assetExecute/junit7461358307784525850.properties" />
+    <property name="java.class.path" value="/home/jars/10.0/base.jar:/home/jars/10.0/thirds.jar:/home/jars/10.0/product.jar:/home/bi/branch/v10.0/test/tool/lib/jco/sapjco3.jar:/home/bi/branch/v10.0/test/tool/lib/mongo/mongo-java-driver-3.11.0.jar:/home/bi/branch/v10.0/test/assetExecute/testcases:/home/bi/branch/v10.0/test/assetExecute/classes:/home/bi/branch/v10.0/test/tool:/home/bi/branch/v10.0/test/lib:/home/bi/branch/v10.0/test/tool/lib/junit.jar:/home/bi/branch/v10.0/test/tool/lib/jxl.jar:/home/bi/branch/v10.0/test/tool/lib/clover.jar:/home/bi/branch/v10.0/test/dataBase/DerbyDatabase.jar:/home/bi/branch/v10.0/test/dataBase/SampleData.jar:/home/bi/branch/v10.0/test/dataBase/Statistics.jar:/home/bi/branch/v10.0/test/dataBase/baoye.jar:/home/bi/branch/v10.0/test/dataBase/coffee.jar:/home/bi/branch/v10.0/test/dataBase/db2jcc.jar:/home/bi/branch/v10.0/test/dataBase/db2jcc_license_cu.jar:/home/bi/branch/v10.0/test/dataBase/orders.jar:/home/bi/branch/v10.0/test/dataBase/tdgssconfig.jar:/home/bi/branch/v10.0/test/dataBase/咖啡统计数据.jar:/home/bi/branch/v10.0/test/tool/lib/office/fontbox-1.8.6.jar:/home/bi/branch/v10.0/test/tool/lib/office/icepdf-core-4.3.3.jar:/home/bi/branch/v10.0/test/tool/lib/office/juh.jar:/home/bi/branch/v10.0/test/tool/lib/office/jurt.jar:/home/bi/branch/v10.0/test/tool/lib/office/pdfbox-1.8.6.jar:/home/bi/branch/v10.0/test/tool/lib/office/ridl.jar:/home/bi/branch/v10.0/test/tool/lib/office/sandbox.jar:/home/bi/branch/v10.0/test/tool/lib/office/unoil.jar:/home/software/apache-ant-1_10_7/lib/ant-launcher.jar:/home/software/apache-ant-1_10_7/lib/ant.jar:/home/software/apache-ant-1_10_7/lib/ant-junit.jar:/home/software/apache-ant-1_10_7/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.7 compiled on September 1 2019" />
+    <property name="reportdir" value="/home/bi/branch/v10.0/test/assetExecute/reports" />
+    <property name="jdk.home" value="/home/share/jdk1.8.0_144" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="work.directory" value="/home/bi/branch/v10.0/test/assetExecute/work" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="ant.file.Yonghong Testing" value="/home/bi/branch/v10.0/test/build.xml" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="testcasesdir" value="/home/bi/branch/v10.0/test/assetExecute/testcases" />
+    <property name="java.ext.dirs" value="/home/software/jdk1.8.0_181/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="tomcat.home" value="/home/bi/branch/v10.0/test/uiAuto/Yonghong/tomcat" />
+    <property name="basedir" value="/home/bi/branch/v10.0/test/assetExecute" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="classesdir" value="/home/bi/branch/v10.0/test/assetExecute/classes" />
+    <property name="ant.core.lib" value="/home/software/apache-ant-1_10_7/lib/ant.jar" />
+    <property name="commondir" value="/home/bi/branch/v10.0/test/assetExecute/../tool" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="unit.dir" value="/home/bi/branch/v10.0/test/assetExecute/test/unit" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="/home/bi/branch/v10.0/test/assetExecute/src" />
+    <property name="ant.project.invoked-targets" value="test,report" />
+  </properties>
+  <testcase classname="db.DBTestCase" name="CustomerBugAuto/bug11072_longalias" time="1.032" />
+  <testcase classname="db.DBTestCase" name="CustomerBugAuto/bug9235_maptopN" time="0.873">
+    <failure message="__##&lt;a href=&quot;\u66\u69\u6c\u65\u3a\u5c\u5c\u5c\u2f\u68\u6f\u6d\u65\u2f\u62\u69\u2f\u62\u72\u61\u6e\u63\u68\u2f\u76\u31\u30\u2e\u30\u2f\u74\u65\u73\u74\u2f\u61\u73\u73\u65\u74\u45\u78\u65\u63\u75\u74\u65\u2f\u74\u65\u73\u74\u63\u61\u73\u65\u73\u2f\u43\u75\u73\u74\u6f\u6d\u65\u72\u42\u75\u67\u2f\u65\u78\u70\u2f\u43\u75\u73\u74\u6f\u6d\u65\u72\u42\u75\u67\u41\u75\u74\u6f\u2f\u62\u75\u67\u39\u32\u33\u35\u5f\u6d\u61\u70\u74\u6f\u70\u4e\u5f\u5f\u56fe\u8868\u31\u5f\u5f\u52\u54\u2e\u70\u6e\u67&quot;&gt;Expected Result&lt;/a&gt;&lt;br/&gt;&#xa;&lt;a href=&quot;\u66\u69\u6c\u65\u3a\u5c\u5c\u5c\u2f\u68\u6f\u6d\u65\u2f\u62\u69\u2f\u62\u72\u61\u6e\u63\u68\u2f\u76\u31\u30\u2e\u30\u2f\u74\u65\u73\u74\u2f\u61\u73\u73\u65\u74\u45\u78\u65\u63\u75\u74\u65\u2f\u74\u65\u73\u74\u63\u61\u73\u65\u73\u2f\u43\u75\u73\u74\u6f\u6d\u65\u72\u42\u75\u67\u2f\u65\u78\u70\u2f\u43\u75\u73\u74\u6f\u6d\u65\u72\u42\u75\u67\u41\u75\u74\u6f\u2f\u62\u75\u67\u39\u32\u33\u35\u5f\u6d\u61\u70\u74\u6f\u70\u4e\u5f\u5f\u56fe\u8868\u31\u5f\u5f\u52\u54\u2e\u70\u6e\u67&quot;&gt;Exporting Result&lt;/a&gt;&lt;br/&gt;Two PNG files pixels are different: &#xa; Result[&lt;a href=&quot;file:\\\/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/res/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot; target=&quot;/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/res/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot;&gt;/CustomerBug/res/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&lt;/a&gt;]&#xa; Expect[&lt;a href=&quot;file:\\\/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/exp/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot; target=&quot;/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/exp/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot;&gt;/CustomerBug/exp/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&lt;/a&gt;]&#xa; Diffs [&lt;a href=&quot;file:\\\/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/diffs/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot; target=&quot;/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/diffs/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot;&gt;/CustomerBug/diffs/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&lt;/a&gt;]&lt;br&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: __##&lt;a href=&quot;\u66\u69\u6c\u65\u3a\u5c\u5c\u5c\u2f\u68\u6f\u6d\u65\u2f\u62\u69\u2f\u62\u72\u61\u6e\u63\u68\u2f\u76\u31\u30\u2e\u30\u2f\u74\u65\u73\u74\u2f\u61\u73\u73\u65\u74\u45\u78\u65\u63\u75\u74\u65\u2f\u74\u65\u73\u74\u63\u61\u73\u65\u73\u2f\u43\u75\u73\u74\u6f\u6d\u65\u72\u42\u75\u67\u2f\u65\u78\u70\u2f\u43\u75\u73\u74\u6f\u6d\u65\u72\u42\u75\u67\u41\u75\u74\u6f\u2f\u62\u75\u67\u39\u32\u33\u35\u5f\u6d\u61\u70\u74\u6f\u70\u4e\u5f\u5f\u56fe\u8868\u31\u5f\u5f\u52\u54\u2e\u70\u6e\u67&quot;&gt;Expected Result&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;\u66\u69\u6c\u65\u3a\u5c\u5c\u5c\u2f\u68\u6f\u6d\u65\u2f\u62\u69\u2f\u62\u72\u61\u6e\u63\u68\u2f\u76\u31\u30\u2e\u30\u2f\u74\u65\u73\u74\u2f\u61\u73\u73\u65\u74\u45\u78\u65\u63\u75\u74\u65\u2f\u74\u65\u73\u74\u63\u61\u73\u65\u73\u2f\u43\u75\u73\u74\u6f\u6d\u65\u72\u42\u75\u67\u2f\u65\u78\u70\u2f\u43\u75\u73\u74\u6f\u6d\u65\u72\u42\u75\u67\u41\u75\u74\u6f\u2f\u62\u75\u67\u39\u32\u33\u35\u5f\u6d\u61\u70\u74\u6f\u70\u4e\u5f\u5f\u56fe\u8868\u31\u5f\u5f\u52\u54\u2e\u70\u6e\u67&quot;&gt;Exporting Result&lt;/a&gt;&lt;br/&gt;Two PNG files pixels are different: 
+ Result[&lt;a href=&quot;file:\\\/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/res/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot; target=&quot;/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/res/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot;&gt;/CustomerBug/res/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&lt;/a&gt;]
+ Expect[&lt;a href=&quot;file:\\\/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/exp/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot; target=&quot;/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/exp/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot;&gt;/CustomerBug/exp/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&lt;/a&gt;]
+ Diffs [&lt;a href=&quot;file:\\\/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/diffs/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot; target=&quot;/home/bi/branch/v10.0/test/assetExecute/testcases/CustomerBug/diffs/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&quot;&gt;/CustomerBug/diffs/CustomerBugAuto/bug9235_maptopN__图表1__RT.png&lt;/a&gt;]&lt;br&gt;
+	at db.DBTestCase.test(DBTestCase.java:389)
+</failure>
+  </testcase>
+  <testcase classname="db.DBTestCase" name="CustomerBugAuto/四舍五入数据test" time="0.023" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

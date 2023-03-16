@@ -1,0 +1,20 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>title</title>
+</head>
+
+<body>
+  <iframe src="http://192.168.0.187:8094/bi/?proc=1&action=viewer&hback=true&db=!5178!!578b!!8ba1!!7b97!.db&platform=PC&browserType=chrome" width="100%" height="100%">
+  </iframe>>
+</body>
+
+<script>
+  window.postMessage(JSON.stringify({
+    action: 'emitYHEvent',
+    eventName: 'RefreshParameters',
+    params: [{ name: 'aa', values: ['yyyyyyy'] }]
+  }), '*')
+</script>
+
+</html>

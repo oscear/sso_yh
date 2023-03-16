@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="51" hostname="localhost.localdomain" name="DBDataprocess.DBDataprocessTest" skipped="0" tests="638" time="1486.819" timestamp="2022-11-09T16:53:06">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="ant.file.type.Yonghong Testing" value="file" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="testclasses.dir" value="/home/bi/branch/v8.6/test/assetExecute/testcases" />
+    <property name="testroot" value="/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/home/software/jdk1.8.0_181/jre/lib/resources.jar:/home/software/jdk1.8.0_181/jre/lib/rt.jar:/home/software/jdk1.8.0_181/jre/lib/sunrsasign.jar:/home/software/jdk1.8.0_181/jre/lib/jsse.jar:/home/software/jdk1.8.0_181/jre/lib/jce.jar:/home/software/jdk1.8.0_181/jre/lib/charsets.jar:/home/software/jdk1.8.0_181/jre/lib/jfr.jar:/home/software/jdk1.8.0_181/jre/classes" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/home/software/apache-ant-1_10_7" />
+    <property name="java.runtime.version" value="1.8.0_181-b13" />
+    <property name="g5.classpath" value="/home/jars/8.6/thirds.jar;/home/jars/8.6/product.jar;/home/jars/8.6/product-swf.jar;/home/bi/branch/v8.6/test/tool/lib/jco/sapjco3.jar;/home/bi/branch/v8.6/test/tool/lib/mongo/mongo-java-driver-3.11.0.jar" />
+    <property name="user.name" value="root" />
+    <property name="build.dir" value="/home/bi/branch/v8.6/test/assetExecute/build" />
+    <property name="user.language" value="en" />
+    <property name="build.root" value="/home/bi/branch/v8.6/build" />
+    <property name="sun.boot.library.path" value="/home/software/jdk1.8.0_181/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="checkEnv" />
+    <property name="testlib.dir" value="/home/bi/branch/v8.6/test/assetExecute/test/lib" />
+    <property name="test.root" value="/home/bi/branch/v8.6/test/assetExecute/.." />
+    <property name="ant.project.name" value="dataExcute" />
+    <property name="java.version" value="1.8.0_181" />
+    <property name="bi.home" value="/home/bi/branch/v8.6/test/assetExecute/work/DBDataprocess" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="ant.file.dataExcute" value="/home/bi/branch/v8.6/test/assetExecute/build.xml" />
+    <property name="java.endorsed.dirs" value="/home/software/jdk1.8.0_181/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="currentdir" value="/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess/." />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ant.file.type.dataExcute" value="file" />
+    <property name="classes.dir" value="/home/bi/branch/v8.6/test/assetExecute/classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/home/software/jdk1.8.0_181/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/home/bi/branch/v8.6/test/assetExecute/build.xml" />
+    <property name="os.version" value="3.10.0-327.el7.x86_64" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.181-b13" />
+    <property name="report.dir" value="/home/bi/branch/v8.6/test/assetExecute/test/html" />
+    <property name="ant.library.dir" value="/home/software/apache-ant-1_10_7/lib" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="srclib.dir" value="/home/bi/branch/v8.6/test/assetExecute/srclib" />
+    <property name="user.home" value="/root" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="/home/bi/branch/v8.6/test/assetExecute/test" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="configdir" value="/home/bi/branch/v8.6/test/assetExecute/config" />
+    <property name="workdir" value="/home/bi/branch/v8.6/test/assetExecute/work" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="common.lib" value="/home/bi/branch/v8.6/test/assetExecute/../tool/lib" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner DBDataprocess.DBDataprocessTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/bi/branch/v8.6/test/assetExecute/reports/TEST-DBDataprocess.DBDataprocessTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/bi/branch/v8.6/test/assetExecute/reports/TEST-DBDataprocess.DBDataprocessTest.txt crashfile=/home/bi/branch/v8.6/test/assetExecute/junitvmwatcher1147096972044481680.properties propsfile=/home/bi/branch/v8.6/test/assetExecute/junit8541053727901105675.properties" />
+    <property name="java.class.path" value="/home/jars/8.6/thirds.jar:/home/jars/8.6/product.jar:/home/jars/8.6/product-swf.jar:/home/bi/branch/v8.6/test/tool/lib/mongo/mongo-java-driver-3.11.0.jar:/home/bi/branch/v8.6/test/assetExecute/testcases:/home/bi/branch/v8.6/test/assetExecute/classes:/home/bi/branch/v8.6/test/tool:/home/bi/branch/v8.6/test/lib:/home/bi/branch/v8.6/test/tool/lib/junit.jar:/home/bi/branch/v8.6/test/tool/lib/jxl.jar:/home/bi/branch/v8.6/test/tool/lib/clover.jar:/home/bi/branch/v8.6/test/dataBase/DerbyDatabase.jar:/home/bi/branch/v8.6/test/dataBase/SampleData.jar:/home/bi/branch/v8.6/test/dataBase/Statistics.jar:/home/bi/branch/v8.6/test/dataBase/baoye.jar:/home/bi/branch/v8.6/test/dataBase/coffee.jar:/home/bi/branch/v8.6/test/dataBase/db2jcc.jar:/home/bi/branch/v8.6/test/dataBase/db2jcc_license_cu.jar:/home/bi/branch/v8.6/test/dataBase/orders.jar:/home/bi/branch/v8.6/test/dataBase/tdgssconfig.jar:/home/bi/branch/v8.6/test/dataBase/咖啡统计数据.jar:/home/bi/branch/v8.6/test/tool/lib/office/fontbox-1.8.6.jar:/home/bi/branch/v8.6/test/tool/lib/office/juh.jar:/home/bi/branch/v8.6/test/tool/lib/office/jurt.jar:/home/bi/branch/v8.6/test/tool/lib/office/pdfbox-1.8.6.jar:/home/bi/branch/v8.6/test/tool/lib/office/ridl.jar:/home/bi/branch/v8.6/test/tool/lib/office/sandbox.jar:/home/bi/branch/v8.6/test/tool/lib/office/unoil.jar:/home/software/apache-ant-1_10_7/lib/ant-launcher.jar:/home/software/apache-ant-1_10_7/lib/ant.jar:/home/software/apache-ant-1_10_7/lib/ant-junit.jar:/home/software/apache-ant-1_10_7/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.7 compiled on September 1 2019" />
+    <property name="reportdir" value="/home/bi/branch/v8.6/test/assetExecute/reports" />
+    <property name="jdk.home" value="/home/share/jdk1.8.0_144" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="work.directory" value="/home/bi/branch/v8.6/test/assetExecute/work" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="ant.file.Yonghong Testing" value="/home/bi/branch/v8.6/test/build.xml" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="testcasesdir" value="/home/bi/branch/v8.6/test/assetExecute/testcases" />
+    <property name="java.ext.dirs" value="/home/software/jdk1.8.0_181/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="tomcat.home" value="/home/bi/branch/v8.6/test/uiAuto/Yonghong/tomcat" />
+    <property name="basedir" value="/home/bi/branch/v8.6/test/assetExecute" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="classesdir" value="/home/bi/branch/v8.6/test/assetExecute/classes" />
+    <property name="ant.core.lib" value="/home/software/apache-ant-1_10_7/lib/ant.jar" />
+    <property name="commondir" value="/home/bi/branch/v8.6/test/assetExecute/../tool" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="unit.dir" value="/home/bi/branch/v8.6/test/assetExecute/test/unit" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="/home/bi/branch/v8.6/test/assetExecute/src" />
+    <property name="ant.project.invoked-targets" value="test,report" />
+  </properties>
+  <testcase classname="db.DBTestCase" name="SpecialCharacter/oracle/other/表达式" time="0.146" />
+  <testcase classname="db.DBTestCase" name="SpecialCharacter/oracle/other/参数列" time="0.134" />
+  <testcase classname="db.DBTestCase" name="SpecialCharacter/oracle/other/动态计算-同环比" time="0.832">
+    <failure message="__##&lt;a href=&quot;\u66\u69\u6c\u65\u3a\u5c\u5c\u5c\u2f\u68\u6f\u6d\u65\u2f\u62\u69\u2f\u62\u72\u61\u6e\u63\u68\u2f\u76\u38\u2e\u36\u2f\u74\u65\u73\u74\u2f\u61\u73\u73\u65\u74\u45\u78\u65\u63\u75\u74\u65\u2f\u74\u65\u73\u74\u63\u61\u73\u65\u73\u2f\u44\u42\u44\u61\u74\u61\u70\u72\u6f\u63\u65\u73\u73\u2f\u65\u78\u70\u2f\u53\u70\u65\u63\u69\u61\u6c\u43\u68\u61\u72\u61\u63\u74\u65\u72\u2f\u6f\u72\u61\u63\u6c\u65\u2f\u6f\u74\u68\u65\u72\u2f\u52a8\u6001\u8ba1\u7b97\u2d\u540c\u73af\u6bd4\u5f\u5f\u8868\u32\u5f\u5f\u52\u54\u2e\u74\u78\u74&quot;&gt;Expected Result&lt;/a&gt;&lt;br/&gt;&#xa;&lt;a href=&quot;\u66\u69\u6c\u65\u3a\u5c\u5c\u5c\u2f\u68\u6f\u6d\u65\u2f\u62\u69\u2f\u62\u72\u61\u6e\u63\u68\u2f\u76\u38\u2e\u36\u2f\u74\u65\u73\u74\u2f\u61\u73\u73\u65\u74\u45\u78\u65\u63\u75\u74\u65\u2f\u74\u65\u73\u74\u63\u61\u73\u65\u73\u2f\u44\u42\u44\u61\u74\u61\u70\u72\u6f\u63\u65\u73\u73\u2f\u65\u78\u70\u2f\u53\u70\u65\u63\u69\u61\u6c\u43\u68\u61\u72\u61\u63\u74\u65\u72\u2f\u6f\u72\u61\u63\u6c\u65\u2f\u6f\u74\u68\u65\u72\u2f\u52a8\u6001\u8ba1\u7b97\u2d\u540c\u73af\u6bd4\u5f\u5f\u8868\u32\u5f\u5f\u52\u54\u2e\u74\u78\u74&quot;&gt;Exporting Result&lt;/a&gt;&lt;br/&gt;Compile failed at line level:&lt;br/&gt;Result[&lt;a href=&quot;file:\\\/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess/res/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&quot; target=&quot;/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess/res/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&quot;&gt;/DBDataprocess/res/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&lt;/a&gt;]&lt;/br&gt;Expect[&lt;a href=&quot;file:\\\/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess/exp/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&quot; target=&quot;/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess/exp/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&quot;&gt;/DBDataprocess/exp/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&lt;/a&gt;]&lt;/br&gt;Not match in line &lt;font color=&apos;#ff0000&apos;&gt;4&lt;/font&gt;:&lt;br/&gt;[expect] &lt;font color=&apos;#4169e1&apos;&gt;&apos;10,-0.9473684210526315,&apos;&lt;/font&gt;&lt;br/&gt;[result] &lt;font color=&apos;#F4A460&apos;&gt;10,0.0,&apos;&lt;/font&gt;&lt;br/&gt;&lt;B&gt;Difference At &lt;font color=&apos;#ff0000&apos;&gt;3&lt;/font&gt;&lt;/B&gt;&lt;br/&gt;[Exp Abb] &lt;font color=&apos;#4169e1&apos;&gt;-0.9473684...&lt;/font&gt;&lt;br/&gt;[Res Abb] &lt;font color=&apos;#F4A460&apos;&gt;0.0,&lt;/font&gt;&lt;br&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: __##&lt;a href=&quot;\u66\u69\u6c\u65\u3a\u5c\u5c\u5c\u2f\u68\u6f\u6d\u65\u2f\u62\u69\u2f\u62\u72\u61\u6e\u63\u68\u2f\u76\u38\u2e\u36\u2f\u74\u65\u73\u74\u2f\u61\u73\u73\u65\u74\u45\u78\u65\u63\u75\u74\u65\u2f\u74\u65\u73\u74\u63\u61\u73\u65\u73\u2f\u44\u42\u44\u61\u74\u61\u70\u72\u6f\u63\u65\u73\u73\u2f\u65\u78\u70\u2f\u53\u70\u65\u63\u69\u61\u6c\u43\u68\u61\u72\u61\u63\u74\u65\u72\u2f\u6f\u72\u61\u63\u6c\u65\u2f\u6f\u74\u68\u65\u72\u2f\u52a8\u6001\u8ba1\u7b97\u2d\u540c\u73af\u6bd4\u5f\u5f\u8868\u32\u5f\u5f\u52\u54\u2e\u74\u78\u74&quot;&gt;Expected Result&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;\u66\u69\u6c\u65\u3a\u5c\u5c\u5c\u2f\u68\u6f\u6d\u65\u2f\u62\u69\u2f\u62\u72\u61\u6e\u63\u68\u2f\u76\u38\u2e\u36\u2f\u74\u65\u73\u74\u2f\u61\u73\u73\u65\u74\u45\u78\u65\u63\u75\u74\u65\u2f\u74\u65\u73\u74\u63\u61\u73\u65\u73\u2f\u44\u42\u44\u61\u74\u61\u70\u72\u6f\u63\u65\u73\u73\u2f\u65\u78\u70\u2f\u53\u70\u65\u63\u69\u61\u6c\u43\u68\u61\u72\u61\u63\u74\u65\u72\u2f\u6f\u72\u61\u63\u6c\u65\u2f\u6f\u74\u68\u65\u72\u2f\u52a8\u6001\u8ba1\u7b97\u2d\u540c\u73af\u6bd4\u5f\u5f\u8868\u32\u5f\u5f\u52\u54\u2e\u74\u78\u74&quot;&gt;Exporting Result&lt;/a&gt;&lt;br/&gt;Compile failed at line level:&lt;br/&gt;Result[&lt;a href=&quot;file:\\\/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess/res/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&quot; target=&quot;/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess/res/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&quot;&gt;/DBDataprocess/res/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&lt;/a&gt;]&lt;/br&gt;Expect[&lt;a href=&quot;file:\\\/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess/exp/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&quot; target=&quot;/home/bi/branch/v8.6/test/assetExecute/testcases/DBDataprocess/exp/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&quot;&gt;/DBDataprocess/exp/SpecialCharacter/oracle/other/动态计算-同环比__表2__RT.txt&lt;/a&gt;]&lt;/br&gt;Not match in line &lt;font color=&apos;#ff0000&apos;&gt;4&lt;/font&gt;:&lt;br/&gt;[expect] &lt;font color=&apos;#4169e1&apos;&gt;&apos;10,-0.9473684210526315,&apos;&lt;/font&gt;&lt;br/&gt;[result] &lt;font color=&apos;#F4A460&apos;&gt;10,0.0,&apos;&lt;/font&gt;&lt;br/&gt;&lt;B&gt;Difference At &lt;font color=&apos;#ff0000&apos;&gt;3&lt;/font&gt;&lt;/B&gt;&lt;br/&gt;[Exp Abb] &lt;font color=&apos;#4169e1&apos;&gt;-0.9473684...&lt;/font&gt;&lt;br/&gt;[Res Abb] &lt;font color=&apos;#F4A460&apos;&gt;0.0,&lt;/font&gt;&lt;br&gt;
+	at db.DBTestCase.test(DBTestCase.java:352)
+</failure>
+  </testcase>
+  <testcase classname="db.DBTestCase" name="SpecialCharacter/oracle/百分号/alias-namegroup-filter" time="0.456" />
+  <testcase classname="db.DBTestCase" name="SpecialCharacter/oracle/百分号/brush cloud和Word" time="0.712" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
